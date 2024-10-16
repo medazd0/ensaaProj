@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.TouchContainer{
+  position: relative;
+  background-color: #edcda6;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+ 
+}
+
+.rectangleContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.rectangle{
+
+  position: relative;
+  width: 600px;
+  height: 300px;
+  background-color: aquamarine;
+}
+
+.wave{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 67px;
+}
+
+.wave .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+
+
+.dataClient{
+  position: relative;
+display: flex;
+flex-direction: column;
+width: 50%;
+gap: 65px ;
+
+
+
+}
+.input-group{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 15%;
+}
+
+.input-group label{
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1em;
+  color: #F3F8F2;
+  margin-top: 6px; margin-left: 10px;
+  z-index: 2;
+  visibility: hidden;
+
+
+ 
+ 
+
+}
+.input-group input {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 70%;
+  line-height: 45px;
+  border-radius: 5px;
+  padding: 0 5px;
+  font-size: 1.2em;
+  opacity: 0.6;
+  background: #edcda6;
+  border: 2px solid #3581B8;
+  outline: 0;
+  z-index: 1111;
+}
+
+
+.input-group input:focus {
+  border: 2px solid #e85959;
+  outline: 0;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.input-group input:focus + label
+ {
+  background: #e85959;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 6px;
+  transform: translateY(200%);
+  text-transform: uppercase;
+  font-size: 70%;
+  z-index: 1111;
+  visibility: visible;
+  
+}
+label {
+  position: absolute;
+  transition: 
+    background 0.9s ,
+    color 0.6s,
+    top 0.2s,
+    bottom 0.2s,
+    right 0.2s,
+    left 0.2s;
+    
+   
+}
+
+.notice{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.notice textarea{
+width: 90%;
+height: 40px;
+max-height: 150px;
+border: 2px solid rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+outline: 0;
+font-size: 12px;
+resize: none;
+padding-top: 8px; padding-left: 7px;
+margin-bottom: 2px;
+box-shadow: 0 5px rgba(0, 0, 0, 0.3) ;
+ }
+textarea:focus {
+  border-color: #e85959;
+  outline: 0;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Width of the vertical scrollbar */
+
+}
+
+ .notice div {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+ }
+ .reviewclasse{
+  width: 50%;
+  transform: translateY(-50px);
+ }
+ .submitBtn{
+  transform: translateX(290px);
+  margin-top: 5px;
+  padding: 7px;
+  background: #e85959;
+  opacity: 0.8;
+  border-radius: 10px;
+  border: 1px solid rgba(68, 84, 52, 0.2);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+ .ClasseForm{
+  display: flex;
+  flex-direction: row;
+ }
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
