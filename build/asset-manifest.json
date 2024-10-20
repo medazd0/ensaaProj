@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ensaaProj/static/css/main.6b07d61f.css",
+    "main.js": "/ensaaProj/static/js/main.24260b9b.js",
+    "static/js/453.56f46472.chunk.js": "/ensaaProj/static/js/453.56f46472.chunk.js",
+    "static/media/coverVideo.mp4": "/ensaaProj/static/media/coverVideo.2b756299e88ec04f3655.mp4",
+    "static/media/ensa0.jpg": "/ensaaProj/static/media/ensa0.8ac6cfa7c32ebb5435b6.jpg",
+    "static/media/img4.svg": "/ensaaProj/static/media/img4.72cbe95ef7f5d38ba4c55ea03954a458.svg",
+    "static/media/ensa1.jpg": "/ensaaProj/static/media/ensa1.b85ce812c69ba493e92f.jpg",
+    "static/media/ensa3.jpg": "/ensaaProj/static/media/ensa3.e07b86ae92b1c505b8b6.jpg",
+    "static/media/ensa2.jpg": "/ensaaProj/static/media/ensa2.919f8e814e7dc09e0281.jpg",
+    "static/media/img2.svg": "/ensaaProj/static/media/img2.01e5eb0c817b233234b4dfd4bda12975.svg",
+    "static/media/ensaLogo.png": "/ensaaProj/static/media/ensaLogo.712de20f3aaeb38402d4.png",
+    "static/media/img3.svg": "/ensaaProj/static/media/img3.dd6c484130299df6790725ec990fdfde.svg",
+    "static/media/img6.svg": "/ensaaProj/static/media/img6.bc3c4bbe097a8215ad54fc76ef643327.svg",
+    "static/media/img5.svg": "/ensaaProj/static/media/img5.e76b09cfb671214287745e3cd70568d9.svg",
+    "index.html": "/ensaaProj/index.html",
+    "main.6b07d61f.css.map": "/ensaaProj/static/css/main.6b07d61f.css.map",
+    "main.24260b9b.js.map": "/ensaaProj/static/js/main.24260b9b.js.map",
+    "453.56f46472.chunk.js.map": "/ensaaProj/static/js/453.56f46472.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b07d61f.css",
+    "static/js/main.24260b9b.js"
+  ]
+}
